@@ -11,7 +11,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    strategy
+    strategy:
       matrix:
         node-version: [16.x, 18.x]
 
